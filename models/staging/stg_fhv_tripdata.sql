@@ -2,4 +2,4 @@
 
 select 
 * from {{ source('staging','fhv_tripdata')}}
-limit 100 
+--limit 100 
